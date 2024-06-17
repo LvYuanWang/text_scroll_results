@@ -1,0 +1,33 @@
+.contents {
+    width: 100%;
+    background-color: #bfedfc;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 20px 0 20px 0;
+}
+
+.contents::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.title {
+    float: left;
+    padding: 0 20px 0 20px;
+    border-right: 2px solid #ccc;
+}
+
+.content-ul {
+    list-style: none;
+    padding: 0;
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    height: 30px;
+    margin-left: 50px;
+}
+
+.content-ul li {
+    height: 30px;
+}
